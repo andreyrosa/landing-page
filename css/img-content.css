@@ -1,0 +1,20 @@
+.img-style {
+  width: 50%;
+  -webkit-filter: invert(0.1);
+  width: 70px;
+  width: 9%;
+  z-index: -1;
+  position: absolute;
+  top: 10rem;
+  left: 7rem;
+}
+.img-style-2 {
+  width: 50%;
+  -webkit-filter: invert(0.1);
+  width: 70px;
+  width: 9%;
+  z-index: -1;
+  position: absolute;
+  bottom: 29rem;
+  left: 80rem;
+}

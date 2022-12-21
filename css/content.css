@@ -1,0 +1,151 @@
+.homepage {
+  width: 100%;
+  height: 100vh;
+}
+
+.homepage-content {
+  position: relative;
+  margin-top: 110px;
+  padding: 0 147px;
+}
+
+.heythere {
+  font-family: LinikSans-medium;
+  color: #3ccf91;
+  font-size: 31.3333px;
+  font-weight: bold;
+  position: relative;
+  top: 2.3rem;
+}
+
+.homepage-content h1 {
+  font-size: 7.319rem;
+  font-family: title-font;
+  color: white;
+}
+
+.title-description {
+  font-size: 31.3333px;
+  font-family: LinikSans-medium;
+  font-weight: bold;
+}
+.title-description.gry {
+  color: #8f9094;
+}
+
+.space-not {
+  margin: 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.space-not span {
+  font-size: 1.4rem;
+  color: #8f9094;
+}
+
+.space-not a {
+  color: #3ccf91;
+}
+
+.media {
+  font-family: LinikSans-bold;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 9rem;
+}
+
+.btn-media {
+  background-color: rgba(255, 255, 255, 0.08);
+  font-size: 14px;
+  padding: 12px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.media button {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.btn-media i {
+  color: #3ccf91;
+  margin-right: 8px;
+}
+
+.btn-media:hover {
+  transition: all 250ms ease 0s;
+  background-color: rgba(255, 255, 255, 0.17);
+}
+
+article {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.art-1 {
+  background-color: #000000;
+  font-size: 3rem;
+}
+
+.art-2 {
+  background-color: #000000;
+  font-size: 3rem;
+}
+
+article {
+  content-visibility: auto;
+  transition: 0.4s ease-in-out;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.about-me {
+  display: flex;
+  height: 60vh;
+  padding: 0 147px;
+  margin-top: 8rem;
+}
+.about-me h2 {
+  font-family: LinikSans-light;
+  font-size: 24px;
+}
+
+.about-me {
+  display: flex;
+}
+
+.about-me p {
+  font-family: "Associate Sans Light";
+  font-weight: normal;
+  color: #8f9094;
+  font-size: 17px;
+  margin-top: 16px;
+}
+.mark-text {
+  color: #3ccf91;
+}
+
+.my-photo {
+  margin-left: 15rem;
+}
+
+.my-photo img {
+  border-radius: 100%;
+  filter: saturate(110%);
+}

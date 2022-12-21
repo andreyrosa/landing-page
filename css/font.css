@@ -1,0 +1,33 @@
+@font-face {
+  font-family: title-font;
+  src: url(../fonts/EloquiaDisplay-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: LinikSans-medium;
+  src: url(../fonts/LinikSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: LinikSans-light;
+  src: url(../fonts/LinikSans-Medium.ttf);
+}
+@font-face {
+  font-family: LinikSans-bold;
+  src: url(../fonts/LinikSans-Bold.ttf);
+}
+
+
+@font-face {
+  font-family: 'Associate Sans Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Associate Sans Light'), url(../fonts/AssociateSansLight.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Associate Sans Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Associate Sans Medium'), url(../fonts/AssociateSansMedium.woff) format('woff');
+}
