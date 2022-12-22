@@ -149,3 +149,57 @@ article {
   border-radius: 100%;
   filter: saturate(110%);
 }
+
+
+.keepInTouch {
+  text-align: center;
+  height: 50vh;
+}
+.keepInTouch h1 {
+  font-size: 48px;
+  font-family: LinikSans-bold;
+}
+
+.keepInTouch p {
+  color: #8f9094;
+  font-family: "Associate Sans Light";
+  margin: 2rem 0 2rem 0;
+}
+/* media-2 */
+
+
+.media-2 {
+  font-family: LinikSans-bold;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.btn-media {
+  background-color: rgba(255, 255, 255, 0.08);
+  font-size: 14px;
+  padding: 12px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.media-2 button {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.btn-media i {
+  color: #3ccf91;
+  margin-right: 8px;
+}
+
+.btn-media:hover {
+  transition: all 250ms ease 0s;
+  background-color: rgba(255, 255, 255, 0.17);
+}
+
+/* final media-2 */
+
