@@ -36,3 +36,16 @@ iconDiv.addEventListener("copy", function(event) {
     console.log(event.clipboardData.getData("text"))
   }
 });
+
+
+const popUp = document.querySelector(".popUp")
+
+iconDiv.addEventListener("click", () => {
+  popUp.classList.add("active")
+  
+  setTimeout(function () {
+    popUp.classList.remove("active")
+  }, 2000);
+  
+})
+
