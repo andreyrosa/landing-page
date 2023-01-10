@@ -56,29 +56,12 @@
   margin-left: 9rem;
 }
 
-.btn-media {
-  background-color: rgba(255, 255, 255, 0.08);
-  font-size: 14px;
-  padding: 12px 16px;
-  border-radius: 7px;
-  cursor: pointer;
-}
-
 .media button {
   font-size: 15px;
   font-weight: 600;
   font-family: inherit;
 }
 
-.btn-media i {
-  color: #3ccf91;
-  margin-right: 8px;
-}
-
-.btn-media:hover {
-  transition: all 250ms ease 0s;
-  background-color: rgba(255, 255, 255, 0.17);
-}
 
 article {
   height: 100vh;
@@ -185,12 +168,6 @@ article {
   cursor: pointer;
 }
 
-.media-2 button {
-  font-size: 15px;
-  font-weight: 600;
-  font-family: inherit;
-}
-
 .btn-media i {
   color: #3ccf91;
   margin-right: 8px;
@@ -201,5 +178,101 @@ article {
   background-color: rgba(255, 255, 255, 0.17);
 }
 
-/* final media-2 */
+
+.btn-media i {
+  color: #3ccf91;
+  margin-right: 8px;
+}
+
+.btn-media:hover {
+  transition: all 250ms ease 0s;
+  background-color: rgba(255, 255, 255, 0.17);
+  opacity: 1;
+  scale: 1.1;
+}
+
+.btn-media {
+  background-color: rgba(255, 255, 255, 0.08);
+  font-size: 14px;
+  padding: 12px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/* MEDIA 2 */
+.btn-media-2 {
+  background-color: rgba(255, 255, 255, 0.08);
+  font-size: 14px;
+  padding: 12px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.btn-media-2 i {
+  color: #3ccf91;
+  margin-right: 8px;
+}
+
+.btn-media-2:hover {
+  transition: all 250ms ease 0s;
+  background-color: rgba(255, 255, 255, 0.17);
+}
+
+
+.btn-media-2 i {
+  color: #3ccf91;
+  margin-right: 8px;
+}
+
+.btn-media-2:hover {
+  transition: all 250ms ease 0s;
+  background-color: rgba(255, 255, 255, 0.17);
+  opacity: 1;
+  scale: 1.1;
+}
+
+.btn-media-2 {
+  background-color: rgba(255, 255, 255, 0.08);
+  font-size: 14px;
+  padding: 12px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/* MEDIA 2 */
+
+.media-2 button {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+
+.showEmailBtn {
+  display: none;
+}
+
+.showEmailBtn.active{
+  display: block;
+  transition: .6s;
+  background-color: rgba(255, 255, 255, 0.08);
+  height: 2.7rem;
+  border-radius: 5px;
+  width: 20rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 2.3rem;
+  right: 2rem;
+}
+
+
+.ph-clipboard-bold {
+  cursor: pointer;
+  display: flex;
+}
+.ph-clipboard-bold:hover{
+  color: rgba(255, 255, 255, 0.68);
+}
 
