@@ -49,3 +49,9 @@ iconDiv.addEventListener("click", () => {
   
 })
 
+
+const hamburguerMenu = document.querySelector(".ph-list-bold")
+
+hamburguerMenu.addEventListener("click", () => {
+  
+})

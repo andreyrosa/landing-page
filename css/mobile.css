@@ -1,0 +1,67 @@
+@media (max-width: 600px) {
+  * {
+    overflow-x: hidden
+  }
+  button {
+    border: none;
+  }
+  .ph-list-bold {
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
+
+  
+  header {
+    width: 100%;
+  }
+  .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .homepage-content {
+    position: relative;
+    margin-top: 0px;
+    padding: 0 20px;
+  }
+  .popUp,
+  .content-popUp {
+    display: none;
+  }
+
+  .title-description {
+    margin-top: 2rem;
+    font-size: 18px;  
+  }
+  
+  .heythere {
+    font-size: 1.5rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .homepage-content h1 {
+    font-size: 3.8rem;
+    line-height: 3.5rem;
+    font-family: title-font;
+    overflow: hidden;
+    color: white;
+  }
+
+  .space-not span {
+    font-size: 0.9rem;
+  }
+  
+  .media {
+    margin-left: 1rem;
+    gap: 15px;
+  }
+  .media button {
+    font-size: 14px;
+    padding: 8px 15px 8px 15px;
+  }
+  
+}

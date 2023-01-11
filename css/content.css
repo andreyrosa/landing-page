@@ -211,8 +211,7 @@ article {
 }
 
 .showEmailBtn.active{
-  display: block;
-  transition: .6s;
+  transition: ease-in-out 1s;
   background-color: rgba(255, 255, 255, 0.08);
   height: 2.7rem;
   border-radius: 5px;
@@ -270,3 +269,4 @@ article {
   color: #9c9c9c;
   font-family: 'Associate Sans Light';
 }
+

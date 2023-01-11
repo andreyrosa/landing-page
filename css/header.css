@@ -12,6 +12,11 @@ header {
   overflow: hidden;
 }
 
+.ph-list-bold {
+  display: none;
+}
+
+
 .header-content {
   width: 100%;
   align-items: center;
