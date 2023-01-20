@@ -123,5 +123,55 @@
     transform: translateY(0px);
     opacity: 1;
   }
+  
+  .nav-hamburger a {
+    font-size: 1.3rem;
+    opacity: 0.9;
+  }
+  
+  .nav-hamburger{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.3rem;
+    align-items: center;
+    height: 4rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  }
+  .nav-hamburger i {
+    font-size: 1.3rem;
+  }
 
+  .btn-close-nav {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .body-hamburger{
+    height: 92vh;
+    padding: 8px 22px;
+  }
+  .nav-bar-mobile.active{
+    display: block;
+    height: 100vh;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #080808;
+    transition: all 0.5s;
+  }
+
+  .btn-nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-nav-link a {
+    padding: 12px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.72);
+  }
 }

@@ -49,9 +49,14 @@ iconDiv.addEventListener("click", () => {
   
 })
 
-
+const x = document.querySelector('.nav-bar-mobile')
+const closeNav = document.querySelector('.ph-x-thin')
 const hamburguerMenu = document.querySelector(".ph-list-bold")
 
 hamburguerMenu.addEventListener("click", () => {
-  
+  x.classList.toggle("active")
+})
+
+closeNav.addEventListener('click', () => {
+  x.classList.remove('active')
 })

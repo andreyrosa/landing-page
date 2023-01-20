@@ -270,3 +270,6 @@ article {
   font-family: 'Associate Sans Light';
 }
 
+.nav-bar-mobile {
+  display: none;
+}
