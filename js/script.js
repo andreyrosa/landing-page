@@ -21,42 +21,40 @@ emailBtn.addEventListener("click", () => {
   emailBtnRemove.classList.toggle("active");
 });
 
-
 const iconDiv = document.querySelector(".iconDiv");
-const textEmail = document.querySelector(".textEmail > p")
+const textEmail = document.querySelector(".textEmail > p");
 
-iconDiv.onclick = function() {
+iconDiv.onclick = function () {
   document.execCommand("copy");
-}
+};
 
-iconDiv.addEventListener("copy", function(event) {
+iconDiv.addEventListener("copy", function (event) {
   event.preventDefault();
   if (event.clipboardData) {
     event.clipboardData.setData("text/plain", textEmail.textContent);
-    console.log(event.clipboardData.getData("text"))
+    console.log(event.clipboardData.getData("text"));
   }
 });
 
-
-const popUp = document.querySelector(".popUp")
+const popUp = document.querySelector(".popUp");
 
 iconDiv.addEventListener("click", () => {
-  popUp.classList.add("active")
-  
-  setTimeout(function () {
-    popUp.classList.remove("active")
-  }, 2000);
-  
-})
+  popUp.classList.add("active");
 
-const x = document.querySelector('.nav-bar-mobile')
-const closeNav = document.querySelector('.ph-x-thin')
-const hamburguerMenu = document.querySelector(".ph-list-bold")
+  setTimeout(function () {
+    popUp.classList.remove("active");
+  }, 2000);
+});
+
+const x = document.querySelector(".nav-bar-mobile");
+const closeNav = document.querySelector(".ph-x-thin");
+const hamburguerMenu = document.querySelector(".ph-list-bold");
 
 hamburguerMenu.addEventListener("click", () => {
-  x.classList.toggle("active")
-})
+  x.classList.add("active");
+});
 
-closeNav.addEventListener('click', () => {
-  x.classList.remove('active')
-})
+
+closeNav.addEventListener("click", () => {
+  x.classList.remove("active");
+});

@@ -151,16 +151,17 @@
     height: 92vh;
     padding: 8px 22px;
   }
+
   .nav-bar-mobile.active{
     display: block;
     height: 100vh;
     width: 80%;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     z-index: 1000;
     background-color: #080808;
-    transition: all 0.5s;
+    transition: all .5s;
   }
 
   .btn-nav-link{
